@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #b0d6db;
+    font-family: Arial, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.reviews-page {
+    background-color: #a5d2d4;
+    padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.reviews-page h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+    border: 2px black dashed;
+}
+
+.review-box img {
+    width: 350px;
+    height: 290px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 2px black solid;
+}
+
+.review-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.review-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.review-box p {
+    font-size: 1em;
+    color: #666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.statistics-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 40px;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.statistics-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-us-image {
+    flex: 1;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.statistics-text {
+    flex: 2;
+}
+
+.statistics-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.statistics-section p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

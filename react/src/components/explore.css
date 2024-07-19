@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.explore-page {
+    padding: 40px;
+    margin: 50px auto 100px;
+    max-width: 1200px;
+    background-color: #c3ecea;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.explore h1 {
+    
+    font-size: 40px;
+    margin-bottom:40px;
+    margin-top: 60px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.explore-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 150px 200px rgba(5, 5, 5, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    height: 350px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+}
+
+.explore-item:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.explore-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.explore-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.explore-item p {
+    margin-bottom: 5px;
+    margin-top: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.explore-item a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.explore-item a:hover {
+    
+    color: #c3ecea;
+}

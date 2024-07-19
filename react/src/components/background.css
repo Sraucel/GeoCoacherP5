@@ -1,0 +1,12 @@
+/* Styling for the Background component */
+.background {
+    height: 100vh;
+    background: url('../pictures/background.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
