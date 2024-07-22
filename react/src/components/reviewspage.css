@@ -16,13 +16,30 @@ body, html {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    background-image: url('../pictures/background5.jpg'); /* Path to your background image */
+    background-size: cover; /* Make sure the image covers the container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
 }
 
 .reviews-page h1 {
     font-size: 2.5em;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.reviews-page h2 {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    max-width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 .reviews-container {
     display: flex;
@@ -32,22 +49,23 @@ body, html {
 }
 
 .review-box {
-    background-color: white;
+    background-color: rgba(224, 219, 207, 0.6);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 30%;
     min-width: 300px;
     text-align: center;
-    border: 2px black dashed;
+    border: 3px rgb(224, 219, 207) inset;
+    margin-top: 30px;
 }
 
 .review-box img {
     width: 350px;
-    height: 290px;
+    height: 300px;
     border-radius: 10px;
     margin-bottom: 10px;
-    border: 2px black solid;
+    border: 3px black solid;
 }
 
 .review-box h2 {
@@ -58,18 +76,19 @@ body, html {
 .review-box h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
-    color: #666;
+    color: #000000;
 }
 
 .review-box p {
     font-size: 1em;
-    color: #666;
+    color: #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .statistics-section {
-    background-color: #ffffff;
+    background-color: rgb(224, 219, 207);
     border-radius: 10px;
+    border: 3px black inset;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 40px;
@@ -86,18 +105,28 @@ body, html {
 .about-us-image {
     flex: 1;
     width: 300px;
-    height: auto;
+    height: 300px;
     margin-right: 20px;
+    border-radius: 5px;
+    border: 2.5px black inset;
 }
 
 .statistics-text {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: bolder;
 }
+
+
 
 .statistics-section h2 {
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+
 }
+
 
 .statistics-section p {
     font-size: 1.2em;

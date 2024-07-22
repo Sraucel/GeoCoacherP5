@@ -1,0 +1,39 @@
+/* src/components/DropdownTab.css */
+.dropdown-tab {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px; /* Adjust as needed */
+    max-height: 0; /* Initially hidden */
+    overflow: hidden; /* Hide overflow */
+    opacity: 0; /* Initially hidden */
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.dropdown-tab.visible {
+    max-height: 300px; /* Adjust based on content */
+    opacity: 1;
+}
+
+.dropdown-tab ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-tab li {
+    margin-bottom: 10px;
+}
+
+.dropdown-tab li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.dropdown-tab li a:hover {
+    color: #0056b3;
+}

@@ -1,51 +1,61 @@
 /* Navbar styling */
 .navbar {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    background-color: transparent;
-    z-index: 2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar-logo {
-    margin-right: auto;
-  }
-  
-  .navbar-logo img {
-    height: 50px; /* Adjust the size as needed */
-  }
-  
-  .navbar-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .navbar-links li {
-    margin-left: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    
-    
-  }
-  
-  .navbar-links li a {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    border: 3px ridge rgb(214, 228, 230);
-    
-    
-  }
-  
-  .navbar-links li a:hover {
-    background-color: rgba(130, 189, 189, 0.2);
-  }
-  
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: transparent;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  margin-right: auto;
+}
+
+.navbar-logo img {
+  height: 50px; /* Adjust the size as needed */
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 25px;
+  margin-right: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-links li a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 2px groove rgb(0, 0, 0);
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+
+.navbar-links li a:hover {
+  background-color: rgba(130, 189, 189, 0.2);
+  box-shadow: 0 0 8px 4px rgba(130, 189, 189);
+}
+
+/* Specific styling for Booking link */
+.navbar-links li a.booking-link {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-links li a.booking-link:hover {
+  color: rgb(0, 0, 0); /* Change to desired hover color */
+  background-color: rgb(240, 128, 128, 0.2); /* Optional: keep the hover background color */
+  box-shadow: 0 0 8px 4px rgb(241, 210, 210);
+}

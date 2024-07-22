@@ -1,0 +1,65 @@
+/* src/components/forums.css */
+.forums {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .post-form, .reply-form {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .posts {
+    margin-top: 20px;
+  }
+  
+  .post {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .reply-form {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .replies {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .reply {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+  }
+  

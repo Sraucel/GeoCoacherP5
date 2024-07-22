@@ -1,0 +1,16 @@
+/* src/components/InteractiveMaps.css */
+.interactive-maps {
+    padding: 40px;
+    text-align: center;
+}
+
+.interactive-maps h1 {
+    margin-bottom: 20px;
+}
+
+.interactive-maps iframe {
+    border: none;
+    width: 100%; /* or use a specific width like 800px */
+    height: 600px; /* adjust height as needed */
+    background-color: none; /* This might not affect the iframe content */
+}

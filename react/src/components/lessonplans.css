@@ -1,0 +1,93 @@
+.lessonplans-wrapper {
+    padding: 40px;
+    background: url('../pictures/background3.jpg') no-repeat center center/cover;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.lessonplans-page {
+    background-color: none; /* Optional: Add a different background color for the content area */
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your preference */
+    
+    
+}
+
+.lessonplans-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.lessonplans-page h2 {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lessonplans-page .plans-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 100px;
+    row-gap: 120px;
+    
+    
+}
+
+.lessonplans-page .plan {
+    background-color: #fff;
+    
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border: 2px ridge black;
+    margin-right: 100px;
+    width: 350px;
+}
+
+.lessonplans-page .plan h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-top: 0;
+}
+
+.lessonplans-page .plan .details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.lessonplans-page .plan .details div {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lessonplans-page .plan .details div h3 {
+    font-size: 1em;
+    margin-right: 50px;
+    color: #555;
+}
+
+.lessonplans-page .plan .details div p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}

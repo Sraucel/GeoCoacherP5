@@ -1,12 +1,13 @@
-/* Styling for the Background component */
+/* background.css */
 .background {
-    height: 100vh;
-    background: url('../pictures/background.jpg') no-repeat center center/cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-  }
-  
+  height: 100vh;
+  background: url('../pictures/background.jpg') no-repeat center center/cover;
+  position: relative; /* Allows positioning of child elements */
+}
+
+.content {
+  position: relative; /* Ensure content is positioned in the flow of the document */
+  top: 100px; /* Adjust this value as needed to position content below header */
+  padding: 2rem; /* Add padding as needed */
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}

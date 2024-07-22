@@ -1,0 +1,44 @@
+/* src/components/Tabs.css */
+.tabs {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #ffcccb; /* Background color similar to the image */
+    border-radius: 15px;
+    padding: 5px; /* Padding around the tabs */
+}
+
+.tab-buttons button {
+    padding: 10px 20px;
+    background-color: #ffebee; /* Light background for non-active tabs */
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    margin: 0 5px; /* Margin between tabs to bunch them together */
+}
+
+.tab-buttons button.active {
+    background-color: #ff80ab; /* Background color for the active tab */
+}
+
+.tab-buttons button:hover {
+    background-color: #ff80ab; /* Same as active for hover */
+}
+
+
+
+.tab-content iframe {
+    width: 150%; /* Adjust width to fill container or use specific percentage */
+    height: 200%; /* Adjust height to fit container */
+    border: none; /* Remove border if any */
+    margin-top: 0px;
+}

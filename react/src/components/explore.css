@@ -10,7 +10,6 @@ body, html {
 
 .explore-page {
     padding: 40px;
-    margin: 50px auto 100px;
     max-width: 1200px;
     background-color: #c3ecea;
     border-radius: 20px;
@@ -20,24 +19,40 @@ body, html {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    margin: 100px auto;
+    padding-bottom: 40px; /* Added padding-bottom */
+    
+}
+
+.explore {
+    padding-top: 150px;
+    padding-left: 75px;  /* Added padding-left */
+    padding-right: 20px; /* Added padding-right */
+    padding-bottom: 50px;
+    background-image: url('../pictures/background4.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .explore h1 {
-    
-    font-size: 40px;
-    margin-bottom:40px;
-    margin-top: 60px;
+    font-size: 35px;
+    margin-bottom: 100px;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .explore-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    row-gap: 50px;
+    margin-left: -15px;
+    column-gap: 100px;
 }
 
 .explore-item {
+    position: relative; /* Ensure relative positioning for dropdown content */
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -46,46 +61,84 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 430px;
-    height: 350px;
+    width: 450px; /* Increased width */
+    height: 400px; /* Increased height */
     margin-bottom: 20px;
-    margin-left: 65px;
+    border: 3px black inset;
 }
 
 .explore-item:hover {
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px 2px lightcoral;
 }
 
 .explore-item img {
     width: 100%;
-    height: 200px;
+    height: 220px;
     border-radius: 5px;
     margin-bottom: 10px;
-    max-height: 200px;
-    object-fit: cover;
+    object-fit: cover; /* Ensures the image covers the box without stretching */
+    border: 3px #007bff outset;
+    margin-left: -1%;
+    margin-top: -1.5%;
 }
 
 .explore-item h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .explore-item p {
     margin-bottom: 5px;
     margin-top: 3px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .explore-item a {
     color: #007bff;
     text-decoration: none;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 30px;
     font-size: 18px;
+    text-align: center;
+    padding: 10px 20px; /* Add padding for the box effect */
+    border: 2px solid #007bff; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
 }
 
 .explore-item a:hover {
-    
-    color: #c3ecea;
+    color: lightcoral;
+    box-shadow: 0 0 10px 2px lightcoral; /* Add shadow on all sides */
+    border-color: lightcoral; /* Change border color on hover */
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 100%; /* Position the dropdown below the parent */
+    left: 0;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    z-index: 10;
+    column-gap: 10px;
+}
+
+.dropdown-content a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0, 123, 255, 0.1);
 }

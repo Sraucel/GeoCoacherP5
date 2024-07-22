@@ -21,6 +21,8 @@ const ReviewsPage = () => {
   return (
     <div className="reviews-page">
       <h1>Why Choose Us?</h1>
+      <h2>Here at GeoCoacher, we showcase the experiences and feedback from 
+        our valued clients who have benefited from our geography tutoring services. Our goal is to provide quality education and support, and nothing demonstrates this better than the words of those we’ve had the pleasure to work with.</h2>
       <div className="reviews-container">
         {reviews.map((review) => (
           <div key={review.id} className="review-box">
