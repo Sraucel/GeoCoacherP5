@@ -1,4 +1,3 @@
-/* src/components/DropdownTab.css */
 .dropdown-tab {
     position: absolute;
     background-color: white;
@@ -7,15 +6,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     margin-top: 10px;
-    width: 200px; /* Adjust as needed */
-    max-height: 0; /* Initially hidden */
-    overflow: hidden; /* Hide overflow */
-    opacity: 0; /* Initially hidden */
+    width: 200px; 
+    max-height: 0; 
+    overflow: hidden; 
+    opacity: 0; 
     transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
 .dropdown-tab.visible {
-    max-height: 300px; /* Adjust based on content */
+    max-height: 300px; 
     opacity: 1;
 }
 

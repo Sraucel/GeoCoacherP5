@@ -16,10 +16,10 @@ body, html {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    background-image: url('../pictures/background5.jpg'); /* Path to your background image */
-    background-size: cover; /* Make sure the image covers the container */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-image: url('../pictures/background5.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 .reviews-page h1 {

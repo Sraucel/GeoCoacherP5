@@ -1,14 +1,13 @@
-/* src/components/aboutus.css */
 .aboutus-page {
-    background: url('../pictures/background2.jpg') no-repeat center center/cover; /* Ensure the background image path is correct */
-    min-height: 100vh; /* Ensure it covers the full viewport height */
-    color: #fff; /* Ensure text is readable against the background */
+    background: url('../pictures/background2.jpg') no-repeat center center/cover; 
+    min-height: 100vh; 
+    color: #fff; 
     font-family: Arial, sans-serif;
     padding: 40px;
 }
 
 .aboutus-content {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.7); 
     padding: 40px;
     border-radius: 10px;
     max-width: 800px;

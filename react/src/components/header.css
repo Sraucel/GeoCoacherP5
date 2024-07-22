@@ -1,15 +1,14 @@
-/* src/components/header.css */
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height to center vertically */
+  height: 100vh; 
   text-align: center;
   z-index: 1;
   position: relative;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background: url('../pictures/background.jpg') no-repeat center center/cover; /* Ensure the background image is correct */
+  background: url('../pictures/background.jpg') no-repeat center center/cover; 
 }
 
 .header h2 {
@@ -29,7 +28,7 @@
   padding: 10px 20px;
   font-size: 1.2em;
   color: white;
-  background-color: #007bff; /* Default button background color */
+  background-color: #007bff; 
   border: 1px solid black;
   text-decoration: none;
   border-radius: 5px;

@@ -1,4 +1,3 @@
-/* src/components/InteractiveMaps.css */
 .interactive-maps {
     padding: 40px;
     text-align: center;
@@ -10,7 +9,7 @@
 
 .interactive-maps iframe {
     border: none;
-    width: 100%; /* or use a specific width like 800px */
-    height: 600px; /* adjust height as needed */
-    background-color: none; /* This might not affect the iframe content */
+    width: 100%; 
+    height: 600px; 
+    background-color: none; 
 }
